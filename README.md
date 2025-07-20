@@ -40,7 +40,7 @@ Un clasificador clásico, no tan robusto, idóneo para el problema
 ⚙️ Requisitos
 Instala los siguientes paquetes para ejecutar el notebook correctamente:
 
-numpy pandas scikit-learn matplotlib seaborn optuna plotly
+numpy pandas scikit-learn nltk matplotlib seaborn optuna plotly
 Requiere además:
 
 Python 3.8+
@@ -52,7 +52,7 @@ Clona o descarga el proyecto.
 
 Asegúrate de tener los archivos train.csv y test.csv en el mismo directorio.
 
-Ejecuta el notebook Sentiment_Analysis.ipynb paso a paso. Algunas celdas de código pueden tomar varios minutos.
+Ejecuta el notebook Sentiment_Analysis.ipynb paso a paso. Algunas celdas de código pueden tomar varios minutos, no se recomienda ejecutar las celdas que entrenan los modelos de Naive Bayes y BERT, toman más de 15 minutos.
 
 Visualiza métricas, gráficos y el mejor hiperparámetro encontrado (alpha).
 
